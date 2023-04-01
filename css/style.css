@@ -1,0 +1,51 @@
+body{
+    background: rgb(19,23,128);
+    background: linear-gradient(90deg, rgba(19,23,128,1) 5%, rgba(128,7,152,1) 100%);
+}
+.container{
+    border: 1px solid black;
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter{
+    border: px solid transparent;
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+    background: #feffea;
+    border-radius: 0 100px 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+.counter h1{
+    font-size: 2rem;
+}
+
+.buttondesign{
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  transition: all .5s;
+  touch-action: manipulation;
+}
+
+.buttondesign:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
